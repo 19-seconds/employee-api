@@ -15,7 +15,7 @@ class Api::V1::EmployeesController < ApplicationController
   end
 
   def show
-    @employee = Employee.find_by(id:params[:id])
+    @employee = Employee.find(params[:id])
   end
 
   def update

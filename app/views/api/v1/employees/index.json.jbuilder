@@ -4,4 +4,5 @@ json.array! @employees.each do |employee|
   json.last_name employee.last_name
   json.birthdate employee.birthdate
   json.email employee.email
+  json.ssn employee.ssn
 end
